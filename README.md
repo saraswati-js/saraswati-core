@@ -1,23 +1,25 @@
 # Alexandria Library
 
-Enterprise level documentation. 
-
-What does this mean? Why can't there just be "documentation"? "YOU FOOL! YOU LET YOUR HUBRIS CONTROL YOU!"
-
-Documentation is just documentation and this is great but there are issues with how documentation in groups. Most enterprises do not organize their documentation properly nevermind doing it well. It's scattered and isn't maintained. The best place to put most of your documentation is within the code itself. Unfortunatly there is a lot of debate on this. Some will do it as Markdown, some as comments, others as unit tests. All work but aren't great.
-
-* Documentation in code should be for logic.
-* Documentation in tests is to explain how to use code.
-* Documentation in Markdown is great because it's simple and is often up-to-date but lives only in the repo.
-
-The solution is to do everything in markdown because it's syntax is simple [and extendable] but the main issue is still that this documentaiton lives in the code. The other issue is that it you need to go to a repo (if you know where it is) to get that information. It's also not linked together. It's completely separated from everything else. How to fix this?
-
-Keep everything in the repo but publish elsewhere. Keep everything separated in any place but have a tool _build_ your documentation. Do your organization of content on a markdown file basis and set up relationships between your archiecture anywhere.
-
-The solution is to generate documentation for many repos or just one site's documentation for self.
+## Enterprise level documentation. 
 
 ![](./packages/_images/patrick-robert-doyle-OvXht_wi5Ew-unsplash.jpg)
 [Photo by Patrick Robert Doyle on Unsplash](https://unsplash.com/photos/OvXht_wi5Ew)
+
+What does this mean? Why can't there just be "documentation"? "YOU FOOL! YOU LET YOUR HUBRIS CONTROL YOU!"
+
+## Problems of existing documentation
+
+Documentation in:
+* code should be for logic. or types.
+* tests explain happy and problem paths.
+* `markdown` is scattered and hard to find, if you're lucky. Also [primarily] developer focused.
+
+## The solution space
+Alexandria seeks to fix this problem by using convention (then configuration) to build documentation from many disparate repos and compiling into one source.
+
+To do this we use an extended Markdown to allow for flexibility and configuration on the target repo to build content as needed for a static site.
+
+So now documentation is updated closer to the behavior that it's describing. There is now no reason to not keep things up to date. Everything can be organized/grouped easily w/o having to do a lot of configuration by the dev or an administrator.
 
 ## Features
 Note: You can use it as a regular static website builder but it's a little over powered for that. On the plus side it'll have a lot of the same features of the [GatsbyJS docs](https://www.gatsbyjs.org/docs) site.
