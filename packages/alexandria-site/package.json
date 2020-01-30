@@ -1,0 +1,12 @@
+{
+  "name": "@alexandria/site",
+  "version": "0.0.1",
+  "description": "The documentation for this website. Also adds some other stuff.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@alexandria/project-workspace",
+  "private": true,
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn workspace example build"
+  },
+  "workspaces": [
+    "alexandria-api",
+    "alexandria-config",
+    "alexandria-core",
+    "alexandria-docs",
+    "alexandria-example-site",
+    "alexandria-glossary",
+    "alexandria-guide",
+    "alexandria-playground",
+    "alexandria-site",
+    "alexandria-theme"
+  ]
+}

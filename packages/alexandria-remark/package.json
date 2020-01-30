@@ -1,7 +1,7 @@
 {
-  "name": "@alexandria/config",
+  "name": "@alexandria/remark",
   "version": "0.0.1",
-  "description": "",
+  "description": "A bunch of custom remark plugins for use in your documentation sites.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
