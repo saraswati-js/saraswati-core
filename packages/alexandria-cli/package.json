@@ -1,0 +1,12 @@
+{
+  "name": "@alexandria/cli",
+  "version": "1.0.0",
+  "description": "Cli to run the library and generate content and such.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -17,34 +17,36 @@ These are the packages/repos that you'd use to setup a site.
 
 |  Package | Description | Configurable? | Optional? |
 |---|---|---|---|
-| `alexandria-theme` | |   | `N` | 
-| `alexandria-example-site` | | Highly, this shows off ALL the features | `Y` | 
+| `@alexandria/theme` | |   | `N` | 
+| `@alexandria/example-site` | | Highly, this shows off ALL the features | `Y` | 
+| `@alexandria/local-runner` | | Add as a dev dep to run in your package locally | `Y` | 
+| `@alexandria/cli` | | Install globally to use tools to run your site (Gatsby) and your local site or to add `@alexandria` functionality to an existing repo  | `Y` | 
 
 ### End user - Optional
 |  Package | Description | Configurable? | Optional? |
 |---|---|---|---|
-| `alexandria-api-code` | JS Docs in your code | `Y`  | `Y` | 
-| `alexandria-api` | Swagger in my docs? Heck yes! | `?` | `Y` | 
-| `alexandria-architecture` | Communal based archiecture docs based on product or just on a page |  `Y` | `Y` | 
-| `alexandria-changelog` | |   |  | 
-| `alexandria-glossary` | |   | `N` | 
-| `alexandria-guide` | |   | `N` | 
-| `alexandria-info` | |   | `Y` | 
-| `alexandria-playground` | |   | `Y` | 
-| `alexandria-versioning` | |   | `Y` | 
+| `@alexandria/api-code` | JS Docs in your code | `Y`  | `Y` | 
+| `@alexandria/api` | Swagger in my docs? Heck yes! | `?` | `Y` | 
+| `@alexandria/architecture` | Communal based archiecture docs based on product or just on a page |  `Y` | `Y` | 
+| `@alexandria/changelog` | |   |  | 
+| `@alexandria/glossary` | |   | `N` | 
+| `@alexandria/guide` | |   | `N` | 
+| `@alexandria/info` | |   | `Y` | 
+| `@alexandria/playground` | |   | `Y` | 
+| `@alexandria/versioning` | |   | `Y` | 
 
 ### Dependancies
 ie: These are required by any/all of the "End User" packages above.
 
 |  Package | Description | Configurable? | Optional? |
 |---|---|---|---|
-| `alexandria-components` | |   | `N` | 
-| `alexandria-config` | |   | `N` | 
-| `alexandria-core` | |   | `N` | 
-| `alexandria-docs` | |   | `N` | 
-| `alexandria-layouts` | |   | `N` | 
-| `alexandria-remark` | |  `N` | `N` | 
-| `alexandria-repos` | |   | `N` | 
+| `@alexandria/components` | |   | `N` | 
+| `@alexandria/config` | |   | `N` | 
+| `@alexandria/core` | |   | `N` | 
+| `@alexandria/docs` | |   | `N` | 
+| `@alexandria/layouts` | |   | `N` | 
+| `@alexandria/remark` | |  `N` | `N` | 
+| `@alexandria/repos` | |   | `N` | 
 
 ## Examples
-Examples in `./packages/alexandria-example-site`. Change config in `gatsby-config.js` and remove repos to show docs coming from remote repos or just what is contained in the folder `./packages/alexandria-example-site`.
+Examples in `./packages/@alexandria/example-site`. Change config in `gatsby-config.js` and remove repos to show docs coming from remote repos or just what is contained in the folder `./packages/alexandria-example-site`.
