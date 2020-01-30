@@ -51,7 +51,6 @@ Note: You can use it as a regular static website builder but it's a little over 
 1. Embed repo specific code into any markdown file.
 
 #### Guides / Tutorials
-Do you have multiple places to setup
 1. Build a wizard of content to guide people through the use of content
 1. Checkboxes to let people keep track of their own progress.
 1. Great to use for self onboarding for new employees.
