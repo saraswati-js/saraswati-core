@@ -49,7 +49,7 @@ Note: You can use it as a regular static website builder but it's a little over 
 #### Architecture
 1. Diagrams out the wahzoo!
 1. Build relationships between all the content. Interlink, use content from them (snippets, etc)
-  - Imagine writing a part of your architecture and not having to do it all in one place! Instead you build relationships in your documentation in the `frontmatter` (all showed in the main site as a link) and then have it all compiled together later!
+    - Imagine writing a part of your architecture and not having to do it all in one place! Instead you build relationships in your documentation in the `frontmatter` (all showed in the main site as a link) and then have it all compiled together later!
 1. Embed repo specific code into any markdown file.
 
 #### Guides / Tutorials
