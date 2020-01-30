@@ -14,6 +14,8 @@ Documentation in:
 * tests explain happy and problem paths.
 * `markdown` is scattered and hard to find, if you're lucky. Also [primarily] developer focused.
 
+Or documentation is either for engineers or for product but there is never a mix (should be product focused with a direction towards engineer space) and there are never any guides. It's too hard to maintain. 
+
 ## The solution space
 Alexandria seeks to fix this problem by using convention (then configuration) to build documentation from many disparate repos and compiling into one source.
 
