@@ -41,8 +41,8 @@ ie: These are required by any/all of the "End User" packages above.
 |  Package | Description | Configurable? | Optional? |
 |---|---|---|---|
 | `@alexandria/components` | |   | `N` | 
-| `@alexandria/config` | |   | `N` | 
 | `@alexandria/core` | |   | `N` | 
+| `@alexandria/dewey` | |   | `N` | 
 | `@alexandria/docs` | |   | `N` | 
 | `@alexandria/layouts` | |   | `N` | 
 | `@alexandria/remark` | |  `N` | `N` | 
