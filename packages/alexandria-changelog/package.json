@@ -1,0 +1,12 @@
+{
+  "name": "@alexandria/changelog",
+  "version": "0.0.1",
+  "description": "Add a changelog (and diff) to all your documentation. Or one big ole' changelog. Bunch o' components too",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
