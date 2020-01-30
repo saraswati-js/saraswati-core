@@ -19,6 +19,55 @@ The solution is to generate documentation for many repos or just one site's docu
 ![](./packages/_images/patrick-robert-doyle-OvXht_wi5Ew-unsplash.jpg)
 [Photo by Patrick Robert Doyle on Unsplash](https://unsplash.com/photos/OvXht_wi5Ew)
 
+## Features
+Note: You can use it as a regular static website builder but it's a little over powered for that. On the plus side it'll have a lot of the same features of the [GatsbyJS docs](https://www.gatsbyjs.org/docs) site.
+
+### Overview
+1. Have hundreds of repos with markdown in them, pull them into a central repository and build documentaiton with those file and build relationships between documents.
+1. Have a single store for all your architecture documents.
+1. Build links to all repo important items.
+1. Have a React component playground using markdown.
+
+### Documentation
+#### General Docs
+1. Table of contents
+1. Sidebar is based on `markdown` front-matter
+1. Configurable (edit on github, delta for dynamic sorting, )
+1. Lots of `markdown` plugins to expand the functionality of `mdx`.
+1. Versioning, changelogs, et al.
+1. Index pages of all your content.
+1. Platform links and documents are organized by `frontmatter`.
+
+#### Playground
+1. Like storybook but easier.
+1. Have access to A11Y tools.
+1. Prop toggles.
+1. Prop documentation.
+
+#### Architecture
+1. Diagrams out the wahzoo!
+1. Build relationships between all the content. Interlink, use content from them (snippets, etc)
+  - Imagine writing a part of your architecture and not having to do it all in one place! Instead you build relationships in your documentation in the `frontmatter` (all showed in the main site as a link) and then have it all compiled together later!
+1. Embed repo specific code into any markdown file.
+
+#### Guides / Tutorials
+Do you have multiple places to setup
+1. Build a wizard of content to guide people through the use of content
+1. Checkboxes to let people keep track of their own progress.
+1. Great to use for self onboarding for new employees.
+
+#### Glossary
+1. Create terms in-line to your documentation and build a glossary to a specific page, inline at the bottom or elsewhere.
+1. Add to the glossary specifically
+1. Add aliases and terms to existing terms. Sometimes there is a bunch of jargon and this will make it easier.
+
+#### Server & Tools
+1. Local runner to show off your docs or use a component playground.
+1. A server and DB to manage building of everything (best for pipelines).
+1. Notifiers so that people can subscribe to documentation changes.
+
+All documentation can now stay up to date (devs can't point fingers anymore).
+
 ## Packages
 _All of this is subject to change; it's just the way that I see it at 12:05PM on 30/01/2020_
 

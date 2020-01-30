@@ -1,0 +1,12 @@
+{
+  "name": "@alexandria/server",
+  "version": "0.0.1",
+  "description": "A server in case you don't want to modify a file in a repo somewhere everytime you want to add a new repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

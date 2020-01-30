@@ -1,0 +1,12 @@
+{
+  "name": "@alexandria/notifier",
+  "version": "0.0.1",
+  "description": "Fire off events at build time when documents are updated. Requires server & storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
