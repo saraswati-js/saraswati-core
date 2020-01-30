@@ -47,3 +47,7 @@ Gatsby Plugins
 - https://www.gatsbyjs.org/packages/gatsby-plugin-collections/?=layout
 - https://www.gatsbyjs.org/packages/gatsby-plugin-extract-schema/?=graphql
 - https://www.gatsbyjs.org/packages/gatsby-plugin-graphql-loader/?=graphql
+
+Reference Links
+- https://github.com/apollographql/gatsby-theme-apollo/issues/54
+- https://availity.github.io/availity-react/
