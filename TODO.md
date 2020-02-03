@@ -5,6 +5,7 @@ Hey there, time to finish things up no?
 - [ ] There are a bunch of packages here that have nothing to do with the theme. Gotta make more repos later.
 - [ ] Repo list like [Gatsby's Plugin](https://www.gatsbyjs.org/packages/gatsby-remark-embedder/) page?
 - [ ] Showcase page?
+- [ ] Choose either `npm` or `yarn` and finally allow for the lock file
 
 ## Useful packages
 Date
