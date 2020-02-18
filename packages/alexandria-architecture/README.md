@@ -1,5 +1,5 @@
 # Archiecture
-A way to setup your architecture docs & diagrams.
+A package to render your architecture docs & diagrams.
 
 Better yet, maybe eventually, allow for cloud formation diagrams
 

@@ -1,0 +1,3 @@
+A package that can DL repositories and render their markdown using our MDX package.
+
+To top this all off there will be a "contract" for how to get your plugins rendered in markdown properly. The issue really comes to light when you're going to have a bunch of repos with their own playgrounds/sandboxes and then they can't render elsewhere because `saraswati` doesn't know how to render it. So we'll have that contract in here.
