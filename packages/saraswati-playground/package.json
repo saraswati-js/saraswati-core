@@ -1,0 +1,12 @@
+{
+  "name": "@saraswati/playground",
+  "version": "0.0.1",
+  "description": "Add playground components for use in your documentation. Also a full on playground page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

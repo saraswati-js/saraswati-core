@@ -1,0 +1,12 @@
+{
+  "name": "@saraswati/versioning",
+  "version": "1.0.0",
+  "description": "Add versioning to your documentation at a doc or site level. Toggleable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

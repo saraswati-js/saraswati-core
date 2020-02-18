@@ -1,0 +1,12 @@
+{
+  "name": "@saraswati/api-code",
+  "version": "1.0.0",
+  "description": "Generate code api referance docs in one place. Uses (ES/JS)doc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
