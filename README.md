@@ -1,4 +1,4 @@
-# Alexandria Library
+# Saraswati JS Core
 
 ## Enterprise level documentation. 
 
@@ -115,3 +115,7 @@ ie: These are required by any/all of the "End User" packages above.
 
 ## Examples
 Examples in `./packages/@alexandria/example-site`. Change config in `gatsby-config.js` and remove repos to show docs coming from remote repos or just what is contained in the folder `./packages/alexandria-example-site`.
+
+## Theme examples
+* [DocBanao - $14](https://themeforest.net/item/docbanao-software-documentation-generator-html-template/22533104) - [Demo link](https://docbanao.bdtask.com/index.html)
+* [VedhaDocs - $14](https://themeforest.net/item/vedhadocs-documentation-and-knowledge-base-template/26054417) - [Demo link](http://knowledgepro.binatestation.com/index.html)
